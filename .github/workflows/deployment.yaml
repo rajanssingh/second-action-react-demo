@@ -1,6 +1,6 @@
 name: test-and-deploy-workflow
 on:
-  push
+  [push, workflow_dispatch]
 jobs:
   test:
     runs-on: ubuntu-latest
