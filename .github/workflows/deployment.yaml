@@ -1,6 +1,6 @@
 name: test-and-deploy-workflow
 on:
-  push:
+  push
 jobs:
   test:
     runs-on: ubuntu-latest
