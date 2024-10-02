@@ -1,4 +1,4 @@
-name: test-run-workflow
+name: test-and-deploy-workflow
 on:
   push:
 jobs:
